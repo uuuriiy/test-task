@@ -1,3 +1,5 @@
+"use client"
+
 import { Flex, FlexProps } from "@chakra-ui/react";
 import { MainLayoutStyles } from "styles/index";
 

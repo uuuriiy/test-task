@@ -1,14 +1,12 @@
-"use client";
-
 import { MainLayout } from "componets/MainLayout";
-import { Intro } from "componets/Intro";
-import { Heros } from "componets/Heros";
+import { HeroSection } from "componets/HeroSection";
+import { HerosList } from "componets/HerosList";
 
 export default function Page() {
   return (
     <MainLayout>
-      <Intro />
-      <Heros />
+      <HeroSection />
+      <HerosList />
     </MainLayout>
   );
 }
